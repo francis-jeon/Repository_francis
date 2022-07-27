@@ -5,7 +5,7 @@ This project is detecting anomalies in the extrusion process via an AI approach.
 
 ![Schematic_of_metal_extrusion_process](https://user-images.githubusercontent.com/100813293/181161238-4d29b214-ecb5-43f4-9420-a06f2d0cde96.jpeg)
 
-## Data Collection Description
+## Data Collection & Description
 The dataset is collected from the Kaggle website, which is available at <https://www.kaggle.com/datasets/podsyp/find-a-defect-in-the-production-extrusion-line>. The dataset consists of 226536 rows and 481 columns. Since the dataset does not contain a target column, the target column is determined by referring to this website <https://www.kaggle.com/code/monikaeliaszkowalska/six-sigma-project-on-malfunction>. In short, the film thickness is the predominant factor in the manufacturing process. Therefore the author claims that if the thickness of the film is 0, then it will be defective. Therefore, the target column was chosen through the same process in this project. 
 
 ```
