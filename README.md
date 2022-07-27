@@ -51,6 +51,12 @@ Comparing the results from the first and second experiments, it could be conclud
   - Recall Score: 0.7
   - F1 Score: 0.68 
 
+## Discussion
+These are principal findings from this project:
+- Normal classifiers could surpass anomaly detection algorithms
+- PCA was effective in this dataset
+- Since these algorithms rquire less computation time, this result shows possibility of real tiem detection
+
 ## Reference
 https://commons.wikimedia.org/wiki/File:Schematic_of_metal_extrusion_process.jpg
 https://www.kaggle.com/code/monikaeliaszkowalska/six-sigma-project-on-malfunction
