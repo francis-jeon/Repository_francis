@@ -35,7 +35,7 @@ Since the format of the given dataset is CSV, machine learning algorithms were u
 
 
 ## Result
-Comparing the results from both experiments, it could be concluded that the machine learning classifiers used in the first experiment surpassed the anomaly detection algorithms utilized in the second experiment. The below paragraph describes the representative results from each experiment. 
+Comparing the results from both experiments, it could be concluded that the machine learning classifiers used in the first experiment surpassed the anomaly detection algorithms utilized in the second experiment. The below figure describes the representative results from each experiment. 
 
 ![graph](https://user-images.githubusercontent.com/100813293/181160440-7a8f503b-e924-4ba3-9859-a6166c0b2a61.png)
 
