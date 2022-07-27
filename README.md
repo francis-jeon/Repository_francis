@@ -30,6 +30,21 @@ Since the format of the given dataset is CSV, machine learning algorithms were u
 - Correlation Function: Discover certain columns which have high correlations with the target
 - PCA: Reduce the dimension of the given dataset, and discard those high correlated columns 
 
+```
+from sklearn.manifold import TSNE
+
+data_tsne=data[data['EXTtotal']==0].sample(1000)
+data_tsne_abnormal=data[data['EXTtotal']==1].sample(50)
+data_tsne=pd.concat([data_tsne,data_tsne_abnormal])
+y_plt=data_tsne['EXTtotal']
+X_plt=data_tsne.drop('EXTtotal',1)
+
+X_embedded = TSNE(n_components=2).fit_transform(X_plt)
+
+plt.figure(figsize=(12,8))
+plt.scatter(X_embedded[:,0], X_embedded[:,1], c=y_plt, cmap=plt.cm.get_cmap("Paired", 2))
+plt.colorbar(ticks=range(2))
+```
 ![EDA](https://user-images.githubusercontent.com/100813293/181160442-03470094-1ffb-4e0e-97f3-6974ac3a5ac0.png)
 ![eda_month](https://user-images.githubusercontent.com/100813293/181160990-fb7a0925-3563-4728-b10f-4cbc041117fd.png)
 
