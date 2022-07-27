@@ -76,7 +76,7 @@ abnormal_proportion = len(abnormal) / float(len(normal))
 
 abnormal_proportion
 ```
-![graph](https://user-images.githubusercontent.com/100813293/181160440-7a8f503b-e924-4ba3-9859-a6166c0b2a61.png)
+![imageLikeEmbed](https://user-images.githubusercontent.com/100813293/181164590-e2d6a095-e649-461c-b084-664713350cc2.png)
 
 - Random Forest: 
   - Accuracy Score: 1.00
