@@ -36,7 +36,9 @@ principalComponents=pca.fit_transform(pred)
 pca_result=pd.DataFrame(data= principalComponents, columns = ['principal component 1', 'principal component 2', 'principal component 3', 'principal component 4', 'principal component 5'])
 ```
 
-### Result
+## Result
+Comparing the results from the first and second experiments, it could be concluded that the machine learning classifiers used in the first expeirments surpassed the anomaly detection algorithms, which were utilized in the second expeirment. The below paragh describes the representative results from each experiment. 
+
 - Random Forest: 
   - Accuracy Score: 1.00
   - Precision Score: 0.99
